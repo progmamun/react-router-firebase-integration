@@ -5,7 +5,7 @@ import useFirebase from '../../hooks/useFirebase';
 import './Header.css';
 
 const Header = () => {
-  const [handleSignOut, user] = useFirebase();
+  const { handleSignOut, user } = useFirebase();
   return (
     <div className="header">
       <nav>
